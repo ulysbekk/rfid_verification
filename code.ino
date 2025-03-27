@@ -21,7 +21,7 @@ void loop() {
       cardID += String(mfrc522.uid.uidByte[i], HEX);
     }
 
-    Serial.println("CARD:" + cardID); // Send card ID to Python
+    Serial.println("CARD:" + cardID); //send card ID to Python
     delay(1000);
   }
 }
